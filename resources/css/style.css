@@ -8,6 +8,7 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+  background: blue;
 }
 
 .center {
@@ -51,6 +52,7 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-size: 1.4rem;
 }
 
 header nav ul {
@@ -116,7 +118,12 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
+}
+
+.banner {
+  padding: 10.625rem 6.25rem;
+  background: url("./../images/banner-landingpage.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 #sign-up-cta {
