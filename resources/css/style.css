@@ -315,6 +315,19 @@ header .mobile {
   }
 }
 
+@media only screen and (max-width: 550px) {
+  #features-section {
+    padding: 0.5rem 0.5rem;
+    flex-direction: column;
+  }
+
+  .feature {
+    margin: 0.5rem 0.5rem;
+    padding: 1.25rem 1rem 1.25rem 1rem;
+    width: 90%;
+  }
+}
+
 /* Filters Section */
 
 #filters-section {
@@ -380,6 +393,14 @@ header .mobile {
   }
 }
 
+
+@media only screen and (max-width: 550px) {
+
+  #filters-section .content h2 {
+    font-size: 1rem;
+  }
+}
+
 /* Quotes Section */
 
 #quotes-section {
@@ -407,6 +428,25 @@ header .mobile {
   #quotes-section .content {
     padding: 1.875rem .625rem;
     display: flex;
+  }
+
+  #quotes-section quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  #quotes-section .quote-citation {
+    display: block;
+    padding: 1rem;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #quotes-section .content {
+    padding: 1.875rem .625rem;
+    display: flex;
+    flex-direction: column;
   }
 
   #quotes-section quote {
